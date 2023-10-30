@@ -1,0 +1,77 @@
+.active{
+    border-bottom: 1px solid #fff;
+}
+
+.linha:hover{
+    border-bottom: 1px solid #fff;
+}
+.reta{
+    height: 1px;
+}
+
+.fonte{
+    font-family: 'Montserrat', sans-serif;
+}
+.fonte:hover{ 
+    color:blue;
+    cursor: pointer;
+}
+.margin{
+    margin-top:150px;
+}
+
+.efeito:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+}
+
+.efeito{
+    box-shadow: 0px 0px 5px black;
+    transition: 0.1s;
+}
+
+
+.cu:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+.cor{
+    color:darkblue;
+}
+
+.backgroud{
+    background-image: linear-gradient(rgb(60, 163, 231), white);
+}
+
+.efeitocard:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.efeitocard{
+    box-shadow: 5px 5px 15px black;
+    transition: 0.3s;
+    min-height:400px;
+}
+
+@media screen and (max-width: 900px){
+    #border{
+        border-top:none;
+    }
+    
+    #button{
+        width:60%;
+        margin-bottom:10px;
+    }
+
+    #alinhar{
+        display: flex;
+        justify-content: center;
+    } 
+
+    #barralateral{
+        display: none;
+    }
+} 
+
+.cd{height: 300px; overflow-y: scroll;} 

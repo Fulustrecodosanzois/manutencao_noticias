@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do dev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../assets/imagens/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="">
+        <div class="container-fluid">
+          <i class="icon ">
+            <img style="width: 45px;" class="logo" src="/assets/imagens/dev-black.png" alt="">
+          </i>
+          <a class="navbar-brand" href="../">Portal do Dev</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../">Inicío</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main class="container-fluid">
+      <div class="container margin">  
+        <div class="row">
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                    <div class="container text-center"> 
+                        <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-video" viewBox="0 0 16 16">
+                        <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
+                        </svg>
+                        <h1 class="text-center mb-3">Faça seu Login</h1>
+                    </div>  
+<!-- Campo email e senha -->
+                    <div class="form-floating mt-2">
+                        <input type="email" class="form-control shadow p-2 mb-3 bg-body-tertiary rounded" 
+                        id="InputEmail" placeholder="E-mail" minlength="10" maxlength="40" required>
+                        <label for="InputEmail" >E-mail</label>
+                    </div>    
+<!-- Campo senha -->
+                    <div class="form-floating mt-2">
+                        <input type="password" class="form-control shadow p-2 mb-3 bg-body-tertiary rounded"
+                         id="InputPassword" placeholder="Senha" minlength="0" maxlength="15" required>
+                        <label for="InputPassword" >Senha</label>
+                    </div>
+ <!-- Checkbox Lembrar -->
+                    <div class="chekbox mt-2">
+                        <label for="">
+                            <input type="checkbox" value="lembrar"> Salvar cadastro ! 
+                        </label>
+                    </div>
+
+                    <div class="text-center d-grid gap-3 col-6 mx-auto">
+                      <a href="/index.html" class="btn btn-lg btn-primary mt-4 ">Entrar</a>
+                      <p>Ainda não tem um cadastro ? <a href="formulario.html"
+                         class="link-offset-2 link-underline link-underline-opacity-0 ">Criar cadastro</a></p>
+                    </div>     
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </main>
+
+    <footer class="container-fluid bg-primary text-white py-2 fixed-bottom">
+      <section class="row ">
+        <div class="col-md-9" id="alinhar">
+          <p>Termos de contrato &copy; 2023</p>
+        </div>
+
+        <div class="col-md-3">
+          <!-- Ícones redes sociais -->
+          <div class="fs-5 d-flex justify-content-evenly" >
+            <a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </section>   
+    </footer>
+          
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
