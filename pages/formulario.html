@@ -40,55 +40,15 @@
     <main class="container bg-ligth">      
       <h1 class="text-center my-5">Formulário de Envio de Mensagem</h1>
       <form action="#">
-        <hr>
-          <!-- campo de texto nome -->
-          <section class="row mb-2" >
-              <div class="col-md-6">
-                  <label for="Nome" class="mb-2">Seu nome:</label>
-                  <input type="text" id="Nome" name="Nome" class="form-control" maxlength="15" required>
-              </div>
-              <div class=" col-md-6">
-                  <label for="Nome" class="mb-2">Seu sobrenome:</label>
-                  <input type="" id="Nome" name="Nome" class="form-control" maxlength="15" required>
-              </div>
-          </section>
-  
-          <!-- campo numero e texto: idade e endereço -->
-          <section class="row mb-2">
-              <div class="col-md-6">
-                  <label for="Idade" class="mb-2">Sua data de nascimento:</label>
-                  <input type="date" name="idade" id="idade" class="form-control" required>
-              </div>
-      
-              <div class="col-md-6">
-                  <label for="endereço" class="mb-2">Seu endereço:</label>
-                  <input type="text" name="endereco" id="endereco" class="form-control" maxlength="45" required>
-              </div>
-          </section>
-
-          </section>
-          <!-- campo email : email -->
-          <section class="row mb-3">
-              <div class="col-md-6">
-                  <label for="email" class="mb-2">Seu e-mail:</label>
-                  <input type="email" name="email" id="email" class="form-control border" required>
-              </div>
-              <div class="col-md-6">
-                <label for="confirmar" class="mb-2">Confirmação de Email:</label>
-                <input type="text" name="confirmar" id="confirmar" class="form-control" placeholder="email@email.com"
-                disabled>
-            </div>
-          </section>
-
-
-          <section class="row-mb-3 my-3">
+        <hr>        
+          <div class="row-mb-3 my-3">
             <div class="col-md-12">
               <label for="">Envie seu arquivo aqui:</label>
               <input type="file" name="arquivo" id="arquivo" accept="image/*">
             </div>
-          </section>
+          </div>
   
-          <section class="row-mb-4">
+          <div class="row-mb-4">
             <div class="col-md-12">
               <label for="" class="mb-2">Comente sobre a notícia escolhida:</label>
               <textarea name="mensagem" id="mensagem"  placeholder="descreva brevemente sua opinião" class="form-control mb-2"></textarea>
@@ -97,23 +57,23 @@
    
   
             </div>
-          </section>
+          </div>
   
           <!-- termos do contrato -->
           <div class=" alert alert-warning nt-2">
             <p>Você aceita os termos do contrato para enviar mensagem ?</p>
           </div>
   
-          <section class="form-check fomr-switch"> 
+          <div class="form-check fomr-switch"> 
             <input type="checkbox" name="escolha" id="escolha" class="form-check-input">
-            <label for="escoha" class="form-check-label">Exibir termos do contrato</label>
-          </section>
+            <label for="escolha" class="form-check-label">Exibir termos do contrato</label>
+          </div>
 
           <hr>
   
   
           <!-- info do contrato -->
-          <section class="p-4 mt-2" id="contrato">
+          <div class="p-4 mt-2" id="contrato">
             <div class="container-fluid">
               <h1>Termos do contrato</h1>
               <p class="lead altura cd">
@@ -177,6 +137,7 @@ Ao preencher e enviar o formulário de cadastro, o Usuário declara ter lido, co
                 <label for="concordo" class="form-check-label">Concordo</label>
               </div>
             </div>
+          </div>
           
           <div class="col-md-6 mx-auto my-3 d-grid gap-2">
             <a href="/index.html" class="btn btn-primary  ">Enviar Mensagem</a>

@@ -1,35 +1,35 @@
 // escreve email em confirmar email 
-let email = document.querySelector("#email")
-let confirmacao = document.querySelector("#confirmar")
+// let email = document.querySelector("#email")
+// let confirmacao = document.querySelector("#confirmar")
 
-let minusculo = email.value.toLowerCase()
+// let minusculo = email.value.toLowerCase()
 
-email.addEventListener("keyup",function(){
-    let minusculo = email.value.toLowerCase()
+// email.addEventListener("keyup",function(){
+//     let minusculo = email.value.toLowerCase()
 
-    confirmacao.value = email.value
+//     confirmacao.value = email.value
 
     // indexOf verifica se tem no campo, "||" significa ou; 
 
-    if(minusculo.indexOf("@") == -1 || minusculo.indexOf(".com") == -1){
-        console.log ("Email invalido")
+    // if(minusculo.indexOf("@") == -1 || minusculo.indexOf(".com") == -1){
+    //     console.log ("Email invalido")
         // email.style.border = "2px solid red"
-        email.classList.add("border-danger")
-        email.classList.remove("border-success")
-    }
-    else{
-        console.log("Email válido")
+    //     email.classList.add("border-danger")
+    //     email.classList.remove("border-success")
+    // }
+    // else{
+    //     console.log("Email válido")
         // email.style.border = "2px solid green"
-        email.classList.add("border-success")
-        email.classList.remove("border-danger")
-    }
+    //     email.classList.add("border-success")
+    //     email.classList.remove("border-danger")
+    // }
 
 
     // verifica se no index do texto em @
-     console.log(email.value.indexOf("@"))
+//      console.log(email.value.indexOf("@"))
 
 
-})
+// })
 
 let escolha = document.querySelector("#escolha")
 let contrato = document.querySelector("#contrato")

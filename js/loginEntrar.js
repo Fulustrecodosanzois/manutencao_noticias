@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var queryParams = new URLSearchParams(window.location.search)
+  const queryParams = new URLSearchParams(window.location.search)
   if (queryParams.get("camposPreenchidos") === "true") {
-    var suaContaBtn = document.querySelector("#suaConta")
+    const suaContaBtn = document.querySelector("#suaConta")
     suaContaBtn.textContent = ""
 
     suaContaBtn.style.backgroundImage = 'url("assets/imagens/perfil.jpeg")'
@@ -11,3 +11,4 @@ document.addEventListener("DOMContentLoaded", function () {
     suaContaBtn.style.padding = "30px"
   }
 })
+
